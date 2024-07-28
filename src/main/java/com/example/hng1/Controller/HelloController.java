@@ -36,7 +36,7 @@ public class HelloController {
         Map<String, String> response = new HashMap<>();
         response.put("client_ip", clientIp);
         response.put("location", location);
-        response.put("greeting", "Welcome, " + visitor_name.replace("\"", "") + "!, "+"the temperature is 11 degrees Celcius in "+ location);
+        response.put("greeting", "How are you, " + visitor_name.replace("\"", "") + "!, "+"the temperature is 11 degrees Celcius in "+ location);
 
         return response;
     }
